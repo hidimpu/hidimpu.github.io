@@ -9,10 +9,12 @@ html {
   font-family: sans-serif;
   -ms-text-size-adjust: 100%;
   -webkit-text-size-adjust: 100%;
+  background-color: #181818;
 }
 
 body {
   margin: 0;
+  background-color: #181818;
 }
 
 article,
