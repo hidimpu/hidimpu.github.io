@@ -1,0 +1,83 @@
+/* 
+	Google color code 
+	Google Green
+	Hex: #3cba54
+	RGB: 60, 186, 84
+	Google Yellow
+	Hex: #f4c20d
+	RGB: 244, 194, 13
+	Google Red
+	Hex: #db3236
+	RGB: 219, 50, 54
+	Google Blue
+	Hex: #4885ed
+	RGB: 72, 133, 237
+ */
+@font-face {
+    font-family: 'product_sans';
+    src: url('./../fonts/product_sans_regular-webfont.woff2') format('woff2'),
+         url('./../fonts/product_sans_regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body {
+    font-family: 'product_sans';
+	overflow: hidden;
+    height: 100vh;
+}
+img {
+  !height: 50px;
+  width: 10%;
+  !background-color: powderblue;
+}
+#particles-js {
+	height: 100%;
+	background-color: #fafafa;
+}
+.main-content {
+	position: absolute;
+	height: 100%;
+	width: 100%;
+}
+
+
+.s-google {
+	width: 20% !important;
+}
+
+.social i {
+	color: #212121;
+}
+.g-red {
+	color: #db3236 !important;
+}
+.g-green {
+	color: #3cba54 !important;
+}
+.g-yellow {
+	color: #f4c20d !important;
+}
+.g-blue {
+	color: #4885ed !important;
+}
+.fa-heart {
+	color: red;
+}
+
+
+@media only screen 
+and (min-device-width : 320px) 
+and (max-device-width : 480px) {
+	.s-google {
+		width: 50% !important;
+	}
+}
+
+@media only screen 
+and (min-device-width : 768px) 
+and (max-device-width : 1024px) {
+	.s-google {
+		width: 35% !important;
+	}
+}

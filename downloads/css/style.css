@@ -1,0 +1,17 @@
+@font-face {
+    font-family: 'product_sans';
+    src: url('./../../fonts/product_sans_regular-webfont.woff2') format('woff2'),
+         url('./../../fonts/product_sans_regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body {
+	font-family: 'product_sans';
+	height: 100vh;
+	background-color: #fafafa;
+}
+
+.breadcrumb-item a {
+	text-decoration: none;
+}

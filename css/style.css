@@ -1,0 +1,133 @@
+@font-face {
+  font-family: 'icomoon';
+  src: url("../fonts/icomoon/icomoon.eot?srf3rx");
+  src: url("../fonts/icomoon/icomoon.eot?srf3rx#iefix") format("embedded-opentype"), url("../fonts/icomoon/icomoon.ttf?srf3rx") format("truetype"), url("../fonts/icomoon/icomoon.woff?srf3rx") format("woff"), url("../fonts/icomoon/icomoon.svg?srf3rx#icomoon") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+html {
+  background-color: #0c0c0c;
+  height: 100%;
+  user-select: none;
+  -ms-user-select: none;
+  -khtml-user-select: none;
+  -webkit-user-select: none;
+  -webkit-touch-callout: none;
+  -moz-user-select: none;
+}
+body {
+  font-family: "Source Sans Pro", Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  -webkit-text-size-adjust: 100%;
+}
+
+a {
+  color: #adadad;
+}
+
+h2 {
+  color: #db3236;
+  font-family: "Source Sans Pro", Arial, sans-serif;
+  margin-bottom: 30px;
+}
+
+h4 {
+  color: #7B8788;
+  font-family: "Source Sans Pro", Arial, sans-serif;
+  margin-bottom: 30px;
+}
+
+.main-content {
+    width: 250px;
+    top: 38%;
+    left: 50%;
+    position: absolute;
+    -moz-transform: translate(-50%, -50%);
+    -o-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%); 
+}
+
+/* Figure Image */
+figure {
+  margin-bottom: 1.5em;
+  display: block;
+}
+
+/* Icons */
+.social {
+  padding: 0;
+  margin: 0;
+  text-align: center;
+  display: block;
+}
+.social li {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  display: -moz-inline-stack;
+  display: inline-block;
+  zoom: 1;
+  *display: inline;
+  position: relative;
+}
+.social li a {
+  font-size: 28px;
+  color: #000;
+  padding: 8px 8px;
+  display: -moz-inline-stack;
+  zoom: 1;
+  *display: inline;
+  -webkit-border-radius: 7px;
+  -moz-border-radius: 7px;
+  -ms-border-radius: 7px;
+  border-radius: 7px;
+  font-weight: bold;
+}
+
+@media screen and (max-width: 768px) {
+  body {
+    background-repeat: no-repeat;
+  }
+
+  .social li a {
+    padding: 10px 8px;
+    visibility: visible;
+  }
+}
+
+.social li a:hover {
+  color: #ff3270;
+}
+
+.social li a:hover, .social li a:active, .social li a:focus {
+  outline: none;
+  text-decoration: none;
+}
+
+/* Footer */
+#footer {
+  color: #000;
+  font-size: 18px;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  margin-bottom: 20px;
+}
+.icon-heart {
+	color: #a83f39;
+}
+#footer a {
+	color: #4885ed;
+}
+/* Particles container */
+#particles-js {
+  width: 100%;
+  height: 100%;
+  background-color: #fff;
+  text-align: center;
+}
